@@ -1,0 +1,94 @@
+/* style.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3f0e7;
+  color: #2d3a2e;
+}
+
+header {
+  background-color: #dce8d4;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo img {
+  width: 80px;
+}
+
+header h1 {
+  margin: 0.5rem 0 0;
+}
+
+header p {
+  font-size: 1.1rem;
+}
+
+header button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #5a7d5a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+section {
+  padding: 2rem;
+}
+
+section h2 {
+  color: #3b533c;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+.dicas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.dicas div {
+  background-color: #e7f1e4;
+  padding: 1rem;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 250px;
+}
+
+footer {
+  background-color: #3b533c;
+  color: #f3f0e7;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+footer div {
+  margin: 1rem 0;
+}
+
+footer h3 {
+  margin-bottom: 0.5rem;
+}
